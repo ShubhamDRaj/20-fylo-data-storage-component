@@ -13,10 +13,10 @@
 <body>
   <article class="data-storage">
     <div class="wrapper">
-      <div class="flex-flow">
+      <div class="grid-flow">
         <div class="dashboard bg-neutral-700">
           <img class="logo" src="images/logo.svg" alt="">
-          <ul class="flex-lock" role="list">
+          <ul class="flex-lock col-gap-1" role="list">
             <li class="file-icon"><a href="#"><img src="images/icon-document.svg" alt=""></a></li>
             <li class="file-icon"><a href="#"><img src="images/icon-folder.svg" alt=""></a></li>
             <li class="file-icon"><a href="#"><img src="images/icon-upload.svg" alt=""></a></li>
@@ -24,12 +24,14 @@
         </div>
         <div class="storage-count bg-neutral-700">
           <p class="text-center-sm-only text-neutral-200a">You’ve used <span class="text-neutral-200 fw-bold">815 GB</span> of your storage</p>
-          <div class="storage-used-bar">
-
-          </div>
+          <div class="storage-used-bar"></div>
           <div class="flex-lock fx-space-between">
             <span class="fs-12 text-neutral-200 fw-bold">0 GB</span>
             <span class="fs-12 text-neutral-200 fw-bold">1000 GB</span>
+          </div>
+          <div class="callout flex-lock col-gap-2">
+            <span class="fs-40 text-neutral-900 fw-bold">185</span>
+            <p class="fs-12 text-neutral-400 fw-bold">GB LEFT</p>
           </div>
         </div>
       </div>
